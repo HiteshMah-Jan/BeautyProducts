@@ -1,0 +1,529 @@
+  .reactProductMain {
+    margin: 0 auto; /*margin: 0; */
+    width: 1240px;
+  }
+
+  .reactProductMain .reactProductMain {
+    flex-basis: 20%;
+    background: #fff;
+    text-align: center;
+    /*height: 460px;*/
+
+  }
+  .reactProductMain .reactProductMain .variantSelect.disabled{
+    display: none;
+  }
+  .reactProductMain .reactProductMain:nth-child(4n+1) {
+    /*margin-left: 0px;*/
+    outline: none;
+  }
+
+  .reactProductMain .reactProductMain .reactProductBrand {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 35px;
+  }
+
+  .reactProductMain .reactProductMain .reactProductBrand a{
+    color: #000;
+  }
+
+  .reactProductMain .reactProductMain .reactProductBrand a:hover{
+    color: #ff8686d4;
+    text-decoration: none;
+  }
+
+  .reactProductMain .reactProductMain .reactProductName {
+     line-height: 17px;
+    height: 3rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .reactProductName a {
+    color: black;
+    font-family: 'Source Sans Pro bold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  .reactProductName a:hover {
+    color: #ff8686d4;
+    text-decoration: none;
+  }
+
+  .reactProductMain .reactProductMain .reactProductValue {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+  }
+
+  .reactProductMain .reactProductMain .reactProductPrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 33px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .reactProductMain .reactProductMain .reactProductPrice .old {
+    color: #606060;
+    opacity: .7;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-decoration-line: line-through;
+  }
+
+  .reactProductMain .reactProductMain .reactProductPrice .new {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+    color: #332D2D;
+    font-style: normal;
+    font-weight: 600;
+    margin-left: 5px;
+  }
+
+  .reactProductMain .reactProductMain .reactProductButton {
+    margin-bottom: 25px;
+  }
+
+  .reactProductMain .reactProductMain .reactProductButton button {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 20px;
+    line-height: 30px;
+    border-color: #FF8686;
+    background-color: #FF8686;
+    color: #fff;
+    border-radius: 5px;
+    border: 0px;
+    width: 90%;
+  }
+  .disabled button{
+    pointer-events: none;
+    background: #bfbfbf;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 20px;
+    line-height: 30px;
+    color: #000;
+    border-radius: 5px;
+    border: 0px;
+    width: 90%;
+  }
+
+  .reactProductMain .reactProductMain .label{
+    position: absolute;
+    max-width: 60px;
+    max-height: 60px;
+    margin-left: 5px;
+  }
+
+  .reactProductMain .reactProductMain .label .labelItem{
+    color: #fff;
+    border-radius: 0px 0px 10px 0px;
+    min-width: 60px;
+    max-width: 120px;
+    max-height: 60px;
+    padding: 0px 5px;
+    font-weight: 700;
+    font-size: 23px;
+    font-family: Source Sans Pro;
+    letter-spacing: -1px;
+  }
+
+  .reactProductMain .reactProductMain .objectView{
+    display: flex;
+    justify-content: flex-end;
+    /*align-items: center;*/
+    padding: 10px 5px;
+  }
+  .reactProductMain .reactProductMain .view{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  .reactProductMain .reactProductMain .view:hover,
+  .reactProductMain .reactProductMain .love:hover{
+      cursor: pointer;
+  }
+
+  .reactProductMain .reactProductMain .view img{}
+
+  .reactProductMain .reactProductMain .love{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .reactProductMain .reactProductMain .love img{}
+
+  .containerModal{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+
+  .containerModal .modalViewImage{
+    flex-basis: 35%;
+    text-align: center;
+  }
+
+  .containerModal .containerInfo{
+    flex-basis: 60%;
+  }
+  .containerModal .containerInfo .conBrand{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #332D2D;
+    padding-top: 20px;
+  }
+  .containerModal .containerInfo .conName{
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 23px;
+    color: #000;
+  }
+  .containerModal .containerInfo .conRatingValue{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 5px 0px;
+  }
+  .containerModal .containerInfo .conRatingValue div:nth-child(1){
+    flex-basis: 40%;
+  }
+
+  .containerModal .containerInfo .conLoveValue{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 5px 0px;
+  }
+  .containerModal .containerInfo .conLoveValue span{
+    color: black;
+    font-size: 1.1rem;
+    
+  }
+  .containerModal .containerInfo .conLoveValue span:hover{
+    text-decoration: none;
+    color: #ff8686;
+  }
+  .containerModal .containerInfo .conLoveValue a{
+    text-decoration: none;
+  }
+  .containerModal .containerInfo .conLoveValue div:nth-child(1){
+    flex-basis: 40%;
+  }
+  .containerModal .containerInfo .conLoveValue div:nth-child(1) img{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+  }
+  .containerModal .containerInfo .conLoveValue div:nth-child(2){
+    display: flex;
+    align-items: center;
+  }
+  .containerModal .containerInfo .conLoveValue div:nth-child(2) img{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+  }
+
+  .inLove span{
+    position: relative;
+    top: 3px;
+  }
+  .inLove span:hover{
+    cursor: context-menu;
+  }
+
+  .containerModal .containerInfo .conDescription{
+    text-align: justify;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 5px 0px;
+  }
+  .containerModal .containerInfo .conWeignValue{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 5px 0px;
+  }
+  .containerModal .containerInfo .conWeignValue div:nth-child(1){
+    flex-basis: 40%;
+  }
+  .containerModal .containerInfo .conWeignValue button{
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 20px;
+    line-height: 30px;
+    border-color: #FF8686;
+    background-color: #FF8686;
+    color: #fff;
+    border-radius: 5px;
+    border: 0px;
+    width: 100%;
+  }
+  .containerModal .containerInfo .conWeignValue .disabled button{
+    pointer-events: none;
+    background: #bfbfbf;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 20px;
+    line-height: 30px;
+    color: #000;
+    border-radius: 5px;
+    border: 0px;
+    width: 100%;
+  }
+  .containerModal .containerInfo .conWeignValue .old{
+    color: #606060;
+    opacity: .7;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-decoration-line: line-through;
+  }
+  .containerModal .containerInfo .conWeignValue .new{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+    color: #332D2D;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .border{
+    border-bottom: 0px solid #dee2e6 !important;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    outline: 0;
+  }
+  .border:focus{
+    outline: 0;
+  }
+
+  .close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover {
+    opacity: .75;
+    outline: 0;
+}
+
+.variant_select{
+  background-color: #ffffff;
+  border: 0px solid #fff;
+  -moz-appearance: none;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.variant_select:focus{
+  outline: none;
+}
+
+.containerRating{
+  position: relative;
+  top: 1px;
+  margin-left: 0.4rem;
+}
+.ratingItem:before{
+  content: '★';
+  font-size: 20px;
+  color: #ffbc00;
+}
+
+.share span{
+  color: black;
+  font-size: 1.1rem;
+  position: relative;
+  top: 2px;
+  left: 5px;
+}
+.share .facebook{
+  top: 0px;
+  left: 0px;
+  margin-right: 5px;
+  position: relative;
+}
+
+.count{
+  display: flex;
+  align-items: center;
+}
+
+.count input[type="button"]{
+  font-size: 16px;
+  /*float: left;*/
+  width: 28px;
+  height: 34px;
+  text-align: center;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.count input[type="text"]{
+  background: #ecececb3;
+  width: 5rem;
+  height: 34px;
+  outline: none;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-left: 0px;
+  border-right: 0;
+  text-align: center;
+}
+.count .reactProductButton,
+.count .disabled{
+  margin-left: 1rem;
+}
+
+.containerModal .label{
+  order: 0;
+  position: absolute;
+  top: 20px;
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.containerModal .label span{    
+  border-radius: 0px 0px 10px 0px;
+  min-width: 60px;
+  max-width: 120px;
+  max-height: 60px;
+  padding: 0px 5px;
+  font-weight: 700;
+  font-size: 23px;
+  font-family: Source Sans Pro;
+  letter-spacing: -1px;
+}
+
+.table{
+  display: flex;
+  justify-content: center;
+  margin: 3vh;
+}
+.table div:hover{
+  cursor: pointer;
+}
+
+
+.table div{
+  padding: 15px;
+  text-transform: uppercase;
+  color: #777;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.table div.active{
+  opacity: 1;
+  -webkit-transition: all .6s cubic-bezier(0.165,0.84,0.44,1);
+  transition: all .6s cubic-bezier(0.165,0.84,0.44,1);
+  z-index: 11;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  color: #332D2D;
+}
+
+.contantProducts{}
+.reactProductImage{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image{
+  height: 200px;
+  width: auto;
+}
+
+@media screen and (max-width: 767px){
+  .reactProductMain {
+    width: 100%;
+  }
+  .reactProductMain .reactProductMain {
+    flex-basis: 100%;
+  }
+  .table div{
+    padding: 5px 15px;
+    font-size: 14px;
+    background: #D8D8D8;
+    border-radius: 5px;
+  }
+  .table{
+    margin: 0px;
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+  }
+  .table div{
+    margin: 0px 10px;
+  }
+  .table div.active{
+    color: #fff;
+    background: #F07777;
+    border-radius: 5px;
+    transform: scale(1);
+    transition: none .6s cubic-bezier(0.165,0.84,0.44,1);
+  }
+
+  .containerModal .modalViewImage{
+    flex-basis: 100%;
+  }
+
+  .containerModal .containerInfo{
+    flex-basis: 100%;
+  }
+
+  .containerModal .conLoveValue .inLove:nth-child(1){
+    flex-basis: 50% !important;
+  }
+  .containerModal .conLoveValue .inLove:nth-child(2){
+    flex-basis: 50% !important;
+  }
+  .containerModal .containerInfo .conWeignValue div:nth-child(1){
+    flex-basis: 50%;
+  }
+  .containerModal .conWeignValue .conWeignValue{
+    flex-basis: 100% !important;
+  }
+  .containerModal .conWeignValue .conWeignValue .new{
+    flex-basis: 50%;
+  }
+  .containerModal .count{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  .containerModal .count span{
+    flex-basis: 50%;
+  }
+  .containerModal .count span input[type="text"]{
+    
+  }
+  .containerModal .reactProductButton{
+    flex-basis: 50%;
+    margin-left: 0;
+  }
+}
