@@ -1,0 +1,2 @@
+# Products React view fetch **carousel** responsive
+![alt text](https://downloader.disk.yandex.ru/preview/c0c4f4cc03c271c682fe33165d6cbb716eab90b9e4f0bdb7388ea817439e3934/600c03cb/vPdTMA3YROv_Qq81AwtUCY--sDqPN6AZltBuXXHiQh8kW2mSQLyAwSYUfUFTN9WLmwKpFV2Z2YVLJZbOJDEoFA%3D%3D?uid=0&filename=2021-01-23_10-07-14.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=2048x2048?v=3&s=500)
