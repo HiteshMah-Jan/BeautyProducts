@@ -88,7 +88,11 @@ body{
 .rec-carousel-item {
   /*padding: 0px 15px;*/
 }
-
+.rec-carousel-item,
+.rec-item-wrapper,
+.rec-item-wrapper div{
+  outline: none;
+}
 @media screen and (max-width: 767px){
   .rec.rec-arrow:hover {
     color: #000 !important;
@@ -103,6 +107,7 @@ body{
   }
   .rec-item-wrapper div{
     width: 100%;
+    outline: none;
   }
   .rec-item-wrapper{
     padding: 0px 0px 0px 0px !important;

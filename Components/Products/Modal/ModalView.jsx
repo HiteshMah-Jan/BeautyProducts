@@ -1,5 +1,5 @@
 import React from "react";
-import pr from './Products.module.css';
+import pr from './../Products.module.css';
 import Modal from 'react-bootstrap/Modal';
 import ModalCount from './ModalCount';
 import {  TwitterShareButton,  TwitterIcon,  FacebookIcon,  FacebookShareButton,  VKIcon,  VKShareButton} from "react-share";
@@ -13,7 +13,7 @@ const ModalView = (props) => {
         counts = props.counts,
         clickModalView = props.clickModalView,
         hide = props.hide;
-        
+            
   return (
     <Modal
         {...props}
@@ -259,7 +259,7 @@ const ModalView = (props) => {
                                   
                                   {mp.stock !== 0 ?
                                     <span className="fn_product_amount">
-                                      <ModalCount variantIt={variantIt} clickModalView={clickModalView}/>
+                                      <ModalCount variantIt={variantIt} clickModalView={clickModalView} item={item}/>
                                     </span>
                                   :
                                       null

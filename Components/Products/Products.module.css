@@ -147,7 +147,7 @@
   .reactProductMain .reactProductMain .objectView{
     display: flex;
     justify-content: flex-end;
-    /*align-items: center;*/
+    outline: none;
     padding: 10px 5px;
   }
   .reactProductMain .reactProductMain .view{

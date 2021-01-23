@@ -4,7 +4,7 @@ import Item from "./Item";
 import pr from './Products.module.css';
 
 const Product = (props) => {
-    const {hide, variantIt, Variants, value, handleChange, Products, counts} = props;
+    const {hide, variantIt, Variants, value, handleChange, Products, counts, setModalShow} = props;
         
     const breakPoints = [
         { width: 1, itemsToShow: 1 },
@@ -13,7 +13,7 @@ const Product = (props) => {
         { width: 950, itemsToShow: 4, itemsToScroll: 2 },
         { width: 1250, itemsToShow: 5 },
         { width: 1550, itemsToShow: 6 },
-    ];    
+    ];   
     return (
     <>
         <>
@@ -22,7 +22,7 @@ const Product = (props) => {
                     <Item key={p.id}>
                         <div className={pr.reactProductMain} >                        
                             <div className={pr.objectView}>
-                                <div className={pr.view} variant="primary" onClick={() => props.setModalShow(p.id)}>
+                                <div className={pr.view} variant="primary" onClick={() => setModalShow(p.id)}>
                                     <img src="https://beautyhub.pro/design/okay_shop/svg/eye-hovver.svg" />
                                 </div>
                                 <div id="wishlist" className={pr.love}>
